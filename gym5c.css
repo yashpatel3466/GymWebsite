@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(1, 1, 14);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.center {
+    text-align: center;
+    color: green; /* Change text color to green */
+}
+
+.ourBlog {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px; /* Adjust the margin as needed */
+}
+
+.blogCard {
+    width: 320px; /* Adjusted size of the boxes */
+    height: 420px; /* Adjusted size of the boxes */
+    margin-inline: 22px;
+    background-color: rgb(42, 41, 41);
+    border: 2px solid green; /* Add green border */
+    transition: transform 0.3s; /* Add transition for hover effect */
+    position: relative; /* Added for absolute positioning of Read More */
+    border-radius: 20px; /* Make corners circular */
+}
+
+.blogCard:hover {
+    transform: scale(1.05); /* Add hover effect */
+}
+
+.blogCard img {
+    width: 100%;
+    border-top-left-radius: 20px; /* Make image corners match box corners */
+    border-top-right-radius: 20px; /* Make image corners match box corners */
+}
+
+.blogCard p {
+    margin-top: 22px;
+    color: white; /* Set text color to white */
+}
+
+.blogText a {
+    text-decoration: none;
+    width: 90px;
+    padding: 11px;
+    background-color: green;
+    color: white;
+    position: absolute;
+    bottom: 20px; /* Position the Read More button at the bottom */
+    left: 50%;
+    transform: translateX(-50%); /* Center the button horizontally */
+    transition: background-color 0.3s; /* Add transition for hover effect */
+    border-radius: 5px; /* Make button corners slightly rounded */
+}
+
+.blogText a:hover {
+    background-color: darkgreen; /* Add hover effect */
+}
+
+.blogText {
+    margin-top: 11px;
+    margin-left: 6px;
+}

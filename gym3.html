@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="gym3c.css">
+</head>
+<body>
+    <section class="container">
+     <header>Registration form</header>
+     <form action="tk.html" class="form" autocomplete="off" method="post" target="_blank">
+
+
+       <div class="input-box">
+        <label>First Name</label>
+        <input type="text" placeholder="enter your name" required />
+       </div>
+
+
+       <div class="input-box">
+        <label>Second Name</label>
+        <input type="text" placeholder="enter your surname" required />
+       </div>
+
+       <div class="input-box">
+        <label>Email Address</label>
+        <input type="email" placeholder="enter your email address" required />
+       </div>
+
+
+       <div class="column">
+        <div class="input-box">
+            <label>Phone number</label> 
+            <input type="tel" placeholder="enter your phone number" required />
+           </div>
+
+
+           <div class="input-box">
+            <label>Birth Date</label>
+            <input type="date" placeholder="enter your birth date" required />
+           </div>
+       </div>
+       <div class="gender-box">
+        <h3>Gender</h3>
+        <div class="gender-option">
+            <div class="gender">
+                <input type="radio" id="check-male" name="gender"/>
+                <label for="check-male">Male</label>
+            </div>
+            <div class="gender">
+                <input type="radio" id="check-female" name="gender"/>
+                <label for="check-female">Female</label>
+            </div>
+        </div>
+       </div>
+
+       <div class="input-box adress">
+        <label>Address</label>
+        <input type="text" placeholder="enter your address" required />
+        <div class="column">
+            <div class="select-box">
+                <select > 
+                    <option hidden>State</option>
+                    <option>Gujarat</option>
+                    <option>Tamil Nadu</option>
+                    <option>Punjab</option>
+                    <option>Uttar Pradesh</option>
+                </select>
+            </div>
+        </div>
+        
+       </div>
+       <div class="input-box adress">
+        
+        <div class="column">
+            <div class="select-box">
+                <select > 
+                    <option hidden>City</option>
+                    <option>Surat</option>
+                    <option>Rajkot</option>
+                    <option>Morbi</option>
+                    <option>Nadiad</option>
+                </select>
+            </div>
+        </div>
+        
+       </div>
+       <div class="input-box adress">
+        
+        <div class="column">
+            <div class="select-box">
+                <select > 
+                    <option hidden>Hobby</option>
+                    <option>Politician</option>
+                    <option>Actor</option>
+                    <option>Employee</option>
+                    <option>Farming</option>
+                    <option>Soldier</option>
+                </select>
+            </div>
+        </div>
+        
+       </div>
+       <button type="submit">Submit</button>
+         
+
+     </form>
+    </section>
+    
+</body>
+</html>
